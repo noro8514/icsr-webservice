@@ -1,5 +1,6 @@
 Flask==3.0.2
 Flask-Cors==4.0.0
+gunicorn
 numpy==1.26.4
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
