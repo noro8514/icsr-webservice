@@ -1,0 +1,10 @@
+services:
+  api:
+    restart: always
+    build:
+      context: .
+    image: icsr-webservice:latest
+    env_file:
+      - .env
+    ports:
+      - "5051:5051"
